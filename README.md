@@ -5,12 +5,24 @@ Be prepared to discuss these items with a consultant during a 1 on 1.
 You may use GitHub, PowerPoint, Keynote, or any other tools you desire to
 complete any part of this.
 
+## Things I feel a lot more comfortable about ( a haa moments)
+
+HTML/APP/EVENTS/API/UI process
+Connecting front/back ends
+deploying in GitHub
+
+## Things I feel the need to work on
+
+Everything but specifically narrating/speaking the language (explaining my code)
+Styling
+Committing more frequently
+
 ## Project Idea
 
 What is your project idea?  How did you come up with it? Why? Who would use it?
 
 ```md
-The idea is a review board to give tenants or prospective tenants (both considered a user) a better understanding of living conditions for a building/apt. It will be tenant (user) focused with tenants leaving  reviews (posted anonymously - v2) and tie the review to a complex without an apt attached. This will protect tenants if they are currently a tenant.
+An interactive messaging board for prospective tenants and tenants alike to provide a better understanding of living conditions before signing on the dotted line.
 
 ```
 
@@ -30,10 +42,17 @@ As a user, I want < sign up/sign in > only when < im not logged in>
 As a user, I want < sign out/change passwords > only when < im signed in>
 As a user, I want < to create a new resource> then be able < to update or delete the resource>
 ```
+Unsolved Problems:
 
-V2 - Paywall for landlords to see how they stack up
-     Reverse landlord reviews tenants w/proof
+V2 - Add several more keys per listing resource (Pricing, management, cleanliness, security)
+     add review as a resource with seperate owners that can uploaded to the listing
+     Add Vibe living - mixture of reviews with recommendation with bad vibe, eh vibe, and good vibe images
+
+
+V3 - Create landlord resource and have listings and reviews connected to landlord in tenant search
      Tenants will have to prove they live there before giving a review.
+     Paywall for landlords to see how they stack up
+
 
 ## Wireframes
 
@@ -64,15 +83,9 @@ Listing:
  {
  Address: 'String'
  required: true
- Landlord: 'string'
+ Review: 'string'
  required: true
- Review:
 
- Model #3
- Comments/Recommendations
-
-Tenants will be the author of the review which will be posted anonymously
-and connected to both user and listing.
 
 ```
 
@@ -94,8 +107,6 @@ What routes will you need to make the proper request to your API?
 ```md
 Listing Route
 User Route
-Comment Route
-GET, POST, PUT/PATCH, DELETE
 ```
 
 ## Timetable
@@ -104,8 +115,14 @@ Write a basic timetable for yourself, you don't have to stick to it but it
 helps to go in with a plan.
 
 ```md
-Day 1 - Set Up/Documentation besides README => HTML + Auth Specifications
-Day 2 - Client Specifications
-Day 3 - over the weekend and day 3 - API Specifications
-Day 4 - work on presentation, styling, most likely play catchup
+Day 1 - Set Up/Documentation besides README + API Specifications
+Day 2 - Clinet - HTML + Auth Specifications
+Day 3 - Client Specifications
+Day 4 - Client Specifications
+Day 5 - work on presentation, styling, readme, deploy
+```
+## Technologies Used
+
+```
+jQuery, AJAX, Express, Mongodb, Mongoose, CORS, JS, JSON, HEROKU, GitHub
 ```
