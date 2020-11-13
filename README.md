@@ -5,6 +5,14 @@ Be prepared to discuss these items with a consultant during a 1 on 1.
 You may use GitHub, PowerPoint, Keynote, or any other tools you desire to
 complete any part of this.
 
+## Link to Client side
+
+https://abos711.github.io/shelterReview-client/ - deployed site
+
+https://github.com/abos711/shelterReview-client - Repo
+
+Client side is your user interface to interact with the messaging board.
+
 ## Things I feel a lot more comfortable about ( a haa moments)
 
 HTML/APP/EVENTS/API/UI process
@@ -97,7 +105,7 @@ These are the diagrams that show how your resources are related to one another
 Include an image (or a link to image) below.
 
 ```md
-https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1#G1SmyvpyX-PMLzM2Y9xw1IHWvoLgIVgl1K
+https://drive.google.com/file/d/1SmyvpyX-PMLzM2Y9xw1IHWvoLgIVgl1K/view?usp=sharing
 ```
 
 ## Routing
@@ -121,6 +129,13 @@ Day 3 - Client Specifications
 Day 4 - Client Specifications
 Day 5 - work on presentation, styling, readme, deploy
 ```
+## Planning and a story about your development process and problem-solving strategy
+
+Planning started with a wireframe and ERD (see links above) and working loosely off those. I started
+with the API and used curl scripts to make sure I had no errors there before moving to the client side. The reason was if I encountered an error when working on the client side, I was assured it could only be on the client side.
+Problem-solving - lots of googling as well as trying to be as detailed as possible while creating an issue. Being as detailed as possible typically led to discovering the solution on my own.
+A Story - The one that sticks out the most was discovering using jQuery to manipulate the DOM. I got the index button to successfully make a request to the api then nothing happened. At that moment I was like wait the api has to response some how. After a lot of google and review of class material I discovered how to to use jQuery properly and the differences between index and show when translating the response.
+
 ## Technologies Used
 
 ```
